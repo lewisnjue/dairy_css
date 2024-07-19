@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigation</title>
+    <style>
+        .nav {
+            
+            display: flex;
+            position: fixed;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+            padding: 10px 15px;
+            margin: 10px ;
+            background-image: linear-gradient(rgb(42, 42, 70),blue  );
+            
+            
+        }
+        button {
+            float: right;
+        }
+        ul{
+            display: flex;
+            gap: 10px;
+            list-style: none;
+            text-decoration: none;
+            align-items: center;
+            
+            
+        }
+        a {
+            color: white;
+            text-decoration: none;
+
+
+        }
+     
+        .logo {
+            color: white;
+            font-size: 30px;
+
+        }
+        button {
+            margin: 20px;
+            padding: 10px;
+            color: blue;
+            border-radius: 15px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="logo">NAV BAR</div>
+        <ul>
+            <li ><a href="#">home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="#">contract</a></li>
+      </ul>
+      <div class="right">
+        <button>get started</button>
+      </div>
+</div>
+</body>
+</html>

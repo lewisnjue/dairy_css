@@ -1,0 +1,25 @@
+.btn{
+    margin: 20px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: white;
+    color: blue;
+    border: none;
+    border-radius: 3px;
+    border:1px solid blue;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    /* transition has four property that we can give ti that is 
+    transition-property, transition-duration,transition-timeing-funtion
+    transtion-delay * you can shorten it to simpley 
+    transition and pass the values in that order if some 
+    propery is the default you dont need to pass it /
+}
+
+
+.btn:hover {
+    transform: translateY(-10px);
+}
+
